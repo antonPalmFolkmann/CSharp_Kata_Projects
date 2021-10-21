@@ -37,10 +37,10 @@ namespace Yatzy.Test
         }
 
         [Theory]
-        [InlineData(3,4,5,6,7)]
+        [InlineData(3,4,5,6,6)]
         public void Test_Illegal_Inputs_And_Verify_Exceptions(int d1, int d2, int d3, int d4, int d5){
             Yatzy yatzy = new Yatzy(d1,d2,d3,d4,d5);
-            
+
         }
 
         [Theory]
